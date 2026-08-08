@@ -2,3 +2,4 @@ node_modules/
 cosmos-export/
 .vercel/
 .DS_Store
+.env*
