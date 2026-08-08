@@ -1,0 +1,27 @@
+{
+  "name": "@tscircuit/dataset-srj21",
+  "version": "0.0.1",
+  "description": "Ten synthetic multi-component easy topology-pair autorouting problems",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "scripts": {
+    "build:site": "cosmos-export",
+    "cosmos": "cosmos",
+    "generate:readme-image": "bun scripts/generate-readme-image.ts"
+  },
+  "dependencies": {
+    "@tsci/0hmX.multi-component-dataset-srj01": "git+https://github.com/tscircuit/multi-component-dataset-srj01.git#abf9d17c966d466b56ac21b735c6bb6f4518919d"
+  },
+  "devDependencies": {
+    "@tscircuit/capacity-autorouter": "0.0.764",
+    "@types/bun": "latest",
+    "graphics-debug": "^0.0.95",
+    "react": "^19.2.4",
+    "react-cosmos": "^7.3.0",
+    "react-cosmos-plugin-vite": "^7.3.0",
+    "react-dom": "^19.2.4",
+    "vite": "^8.1.5"
+  }
+}
